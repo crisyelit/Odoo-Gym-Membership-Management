@@ -1,0 +1,8 @@
+<odoo>
+    <data>
+        <menuitem id="main_menu_gym" name="Gym management"/>
+        <menuitem id="menu_subscriber_sub" name="Subscribers" parent="main_menu_gym" action="subscriber_list_action"/>
+        <menuitem id="menu_membership" name="Membership" parent="main_menu_gym" action="membership_list_action"/>
+        <menuitem id="menu_activity" name="Activity" parent="main_menu_gym" action="activity_list_action"/>
+    </data>
+</odoo>
